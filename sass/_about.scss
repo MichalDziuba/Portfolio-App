@@ -1,0 +1,365 @@
+    .about {
+        font-family: 'Montserrat',
+        sans-serif;
+        color: #fff;
+        margin-top: 150px;
+    }
+
+    .about__me {
+        font-size: 28px;
+        line-height: 1.48;
+        display: block;
+        margin-top: 70px;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .about__buttons {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .about__btn--me {
+        width: 210px;
+        height: 40px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Montserrat',
+        sans-serif;
+        font-weight: 500;
+        text-align: center;
+        background-color: inherit;
+        border: 3px;
+        border-color: #fff;
+        border-style: solid;
+        border-radius: 2px;
+        box-sizing: border-box;
+        line-height: 1em;
+        touch-action: manipulation;
+        white-space: nowrap;
+        cursor: pointer;
+        letter-spacing: 3px;
+        transition: all 1s;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: #fff;
+            color: black;
+            font-weight: 500;
+        }
+    }
+
+    .about__btn--me span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 1s;
+    }
+
+    .about__btn--me span:after {
+        content: '\00bb';
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        opacity: 0;
+        bottom: -3px;
+        right: -18px;
+        transition: 0.5s;
+        color: black;
+    }
+
+    .about__btn--me:hover span {
+        padding-right: 25px;
+    }
+
+    .about__btn--me:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .about__btn--skills {
+        width: 210px;
+        height: 40px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 22px;
+        font-family: 'Montserrat',
+        sans-serif;
+        font-weight: 500;
+        text-align: center;
+        background-color: inherit;
+        border: 3px;
+        border-color: #fff;
+        border-style: solid;
+        border-radius: 2px;
+        box-sizing: border-box;
+        line-height: 1em;
+        touch-action: manipulation;
+        white-space: nowrap;
+        cursor: pointer;
+        letter-spacing: 3px;
+        transition: all 1s;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: #fff;
+            color: black;
+            font-weight: 500;
+        }
+    }
+
+    .about__btn--skills span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .about__btn--skills span:after {
+        content: '\00bb';
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        opacity: 0;
+        bottom: -3px;
+        right: -18px;
+        transition: 0.5s;
+        color: black;
+    }
+
+    .about__btn--skills:hover span {
+        padding-right: 25px;
+    }
+
+    .about__btn--skills:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .about__btn--hobbies {
+       width: 210px;
+       height: 40px;
+       border-radius: 8px;
+       color: #fff;
+       font-size: 22px;
+       font-family: 'Montserrat',
+       sans-serif;
+       font-weight: 500;
+       text-align: center;
+       background-color: inherit;
+       border: 3px;
+       border-color: #fff;
+       border-style: solid;
+       border-radius: 2px;
+       box-sizing: border-box;
+       line-height: 1em;
+       touch-action: manipulation;
+       white-space: nowrap;
+       cursor: pointer;
+       letter-spacing: 3px;
+       transition: all 1s;
+margin-bottom: 20px;
+       &:hover {
+           background-color: #fff;
+           color: black;
+           font-weight: 500;
+       }
+    }
+
+    .about__btn--hobbies span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .about__btn--hobbies span:after {
+         content: '\00bb';
+         font-size: 30px;
+         font-weight: 700;
+         position: absolute;
+         opacity: 0;
+         bottom: -3px;
+         right: -18px;
+         transition: 0.5s;
+         color: black;
+    }
+
+    .about__btn--hobbies:hover span {
+        padding-right: 25px;
+    }
+
+    .about__btn--hobbies:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .about__me__img {
+        display: none;
+    }
+
+    .about__skills__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        color: #fff;
+    }
+
+    .about__skills__tittle {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .about__skills {
+        margin-top: 50px;
+        display: block;
+
+
+    }
+
+    .about__skills__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__hobbies {
+        margin-top: 80px;
+        color: #fff;
+    }
+
+    .hobbies__tittle {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .hobbies__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+        .about__me {
+            font-size: 28px;
+            display: flex;
+            margin-top: 70px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .about__buttons {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .about__me__img {
+            border-radius: 50%;
+            margin-left: 50px;
+            width: 200px;
+            height: 200px;
+            display: block;
+        }
+
+        .about__skills__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+        }
+
+        .about__skills__tittle {
+            justify-content: center;
+            display: flex;
+        }
+
+        .about__skills {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            min-height: 366px;
+            max-height: 366px;
+        }
+
+        .invisible {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .about {
+            font-family: 'Montserrat',
+            sans-serif;
+            color: #fff;
+            margin-top: 150px;
+        }
+
+        .about__me {
+            font-size: 28px;
+            display: flex;
+            margin-top: 70px;
+            text-align: justify;
+            min-height: 346px;
+
+        }
+
+        .about__buttons {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .about__me__img {
+            border-radius: 50%;
+            margin-left: 50px;
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+
+
+        .about__skills__tittle {
+            justify-content: center;
+            display: flex;
+
+        }
+
+        .about__skills {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            min-height: 366px;
+            max-height: 366px;
+
+        }
+
+        .about__skills__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about__hobbies {
+            margin-top: 80px;
+            min-height: 336px;
+            max-height: 336px;
+
+        }
+
+        .invisible {
+            display: none;
+        }
+    }
