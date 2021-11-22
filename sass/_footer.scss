@@ -1,0 +1,29 @@
+.footer__text {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+    &:hover {
+        color:#fff;
+        animation: shake 0.8s;
+        cursor: default;
+    }
+
+    @keyframes shake {
+        0% {
+            transform: translateX(0)
+        }
+
+        25% {
+            transform: translateX(15px);
+        }
+
+        50% {
+            transform: translateX(-15px);
+        }
+
+        100% {
+            transform: translateX(0px);
+        }
+    }
+}
