@@ -25,8 +25,8 @@ portfolioElms.forEach(elm => {
       src="${elm.preview}"
       alt="${elm.description}"
     />
-  <div class="portfolio__overlay">
-  <h4 class="portfolio__tittle">${elm.tittle}</h4>
+  <div class="portfolio__overlay fadeIn-right fadeIn-bottom">
+  <h3 class="portfolio__tittle">${elm.tittle}</h3>
   <p class="overlay__techdesc">Technologies:</p>
   <p class="overlay__tech">${elm.tech}</p>
   <p class="overlay__description">${elm.description}</p>
