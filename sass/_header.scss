@@ -45,8 +45,6 @@
 }
 
 .mobile__link-A {
-    padding-right: 40px;
-    padding-left: 40px;
     padding-bottom: 2px;
     padding-top: 2px;
     border-radius: 2px;
@@ -69,15 +67,14 @@
     white-space: nowrap;
     cursor: pointer;
     letter-spacing: 3px;
-
+    width: 200px;
+    text-align: center;
 
 }
 
 .mobile__link-C {
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-right: 28px;
-    padding-left: 28px;
     border-radius: 2px;
     color: #fff;
     font-size: 22px;
@@ -98,15 +95,13 @@
     white-space: nowrap;
     cursor: pointer;
     letter-spacing: 3px;
-
-
+    width: 200px;
+    text-align: center;
 }
 
 .mobile__link-P {
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-right: 35px;
-    padding-left: 8px;
     border-radius: 2px;
     color: #fff;
     font-size: 22px;
@@ -126,8 +121,8 @@
     white-space: nowrap;
     cursor: pointer;
     letter-spacing: 3px;
-
-
+    width: 200px;
+    text-align: center;
 }
 
 .close-btn {

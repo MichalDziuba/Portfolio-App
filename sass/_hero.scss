@@ -1,8 +1,22 @@
   .hero {
     margin-top: 80px;
    text-align: center;
+    animation: div-hero 1000ms ease-in 300ms;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000px);
+    opacity: 0;
   }
+   @keyframes div-hero {
+     0% {
+       transform: translateX(-1000px);
+       opacity: 0;
+     }
 
+     100% {
+       transform: translateX(0px);
+       opacity: 1;
+     }
+   }
   .hero__tittle {
     color: #fff;
     font-family: 'Montserrat',
@@ -56,7 +70,7 @@ transition-duration: 0.5s;
     }
 
     .hero__tittle__text {
-      text-align: justify;
+      text-align: center;
     }
   }
 

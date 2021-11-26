@@ -12,9 +12,41 @@
         margin-top: 70px;
         text-align: center;
         color: #fff;
+        animation: div-load 500ms ease-in 200ms;
+        animation-fill-mode: forwards;
+        transform: scale(0);
+        opacity: 0;
 
     }
+ .about__skills {
+     margin-top: 50px;
+     display: block;
+    animation: div-load 500ms ease-in 200ms;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+    opacity: 0;
 
+ }
+    .about__hobbies {
+        margin-top: 80px;
+        color: #fff;
+        animation: div-load 500ms ease-in 200ms;
+        animation-fill-mode: forwards;
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    @keyframes div-load {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
     .about__buttons {
         list-style-type: none;
         display: flex;
@@ -217,21 +249,11 @@ margin-bottom: 20px;
 
     }
 
-    .about__skills {
-        margin-top: 50px;
-        display: block;
-
-
-    }
+   
 
     .about__skills__wrapper {
         display: flex;
         flex-direction: column;
-    }
-
-    .about__hobbies {
-        margin-top: 80px;
-        color: #fff;
     }
 
     .hobbies__tittle {

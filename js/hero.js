@@ -16,11 +16,3 @@ shakeLetters[17].classList.remove("shake__letter");
 shakeLetters[18].classList.remove("shake__letter");
 heroSection.insertAdjacentHTML("beforeend",`<p class="hero__tittle__text"> I am web applications developer. This is my portfolio website. <br>Feel free and take a look around.</p>`)
 
-$(document).ready(function() {
- 
-    setTimeout(function(){
-        $('body').addClass('loaded');
-        $('h1').css('color','#222222');
-    }, 3000);
- 
-});
