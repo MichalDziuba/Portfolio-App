@@ -20,7 +20,7 @@
       background-position: 0% 50%;
     }
   }
-  .span_sectionEnd {
+  .span_section-End {
     font-size: 34px;
     text-size-adjust: bold;
     font-weight: 680;
@@ -65,7 +65,7 @@
       background-position: 0% 50%;
     }
   }
-  .span_sectionEnd {
+  .span_section-End {
     font-size: 34px;
     text-size-adjust: bold;
     font-weight: 680;
@@ -97,7 +97,7 @@
     background-size: contain;
     cursor: default;
   }
-  .span_sectionEnd {
+  .span_section-End {
     font-size: 34px;
     text-size-adjust: bold;
     font-weight: 680;
@@ -264,7 +264,7 @@ nav li:last-child {
   margin-bottom: 30px;
 }
 
-.mobile__link-A {
+.mobile__link-a {
   padding-bottom: 2px;
   padding-top: 2px;
   border-radius: 2px;
@@ -290,7 +290,7 @@ nav li:last-child {
   text-align: center;
 }
 
-.mobile__link-C {
+.mobile__link-c {
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 2px;
@@ -316,7 +316,7 @@ nav li:last-child {
   text-align: center;
 }
 
-.mobile__link-P {
+.mobile__link-p {
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 2px;
@@ -857,11 +857,11 @@ nav li:last-child {
   right: 0;
 }
 
-.about__me__img {
+.about__img {
   display: none;
 }
 
-.about__skills__list {
+.skills__list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -869,12 +869,12 @@ nav li:last-child {
   color: #fff;
 }
 
-.about__skills__tittle {
+.skills__tittle {
   justify-content: center;
   display: flex;
 }
 
-.about__skills__wrapper {
+.about__wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -909,20 +909,20 @@ nav li:last-child {
     flex-direction: row;
     justify-content: space-around;
   }
-  .about__me__img {
+  .about__img {
     border-radius: 50%;
     margin-left: 50px;
     width: 200px;
     height: 200px;
     display: block;
   }
-  .about__skills__list {
+  .skills__list {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
   }
-  .about__skills__tittle {
+  .skills__tittle {
     justify-content: center;
     display: flex;
   }
@@ -957,14 +957,14 @@ nav li:last-child {
     flex-direction: row;
     justify-content: space-around;
   }
-  .about__me__img {
+  .about__img {
     border-radius: 50%;
     margin-left: 50px;
     display: block;
     width: 300px;
     height: 300px;
   }
-  .about__skills__tittle {
+  .skills__tittle {
     justify-content: center;
     display: flex;
   }
@@ -975,7 +975,7 @@ nav li:last-child {
     min-height: 366px;
     max-height: 366px;
   }
-  .about__skills__wrapper {
+  .about__wrapper {
     display: flex;
     flex-direction: column;
   }

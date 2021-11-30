@@ -11,9 +11,9 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
-  const btnA = document.querySelector(".mobile__link-A");
-  const btnP = document.querySelector(".mobile__link-P");
-  const btnC = document.querySelector(".mobile__link-C");
+  const btnA = document.querySelector(".mobile__link-a");
+  const btnP = document.querySelector(".mobile__link-p");
+  const btnC = document.querySelector(".mobile__link-c");
   btnA.addEventListener("click", () => {
     refs.modal.classList.add("is-hidden")
   })
