@@ -6,6 +6,7 @@
         sans-serif;
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
+        background-attachment:fixed;
         animation: gradient 15s ease infinite;
         height: 100%;
         cursor: default;
@@ -60,6 +61,7 @@
        sans-serif;
        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
        background-size: 400% 400%;
+       background-attachment:fixed;
        animation: gradient 15s ease infinite;
        height: 100%;
        cursor: default;
@@ -80,7 +82,7 @@
        }
 
     .span_section-End {
-        font-size: 34px;
+        font-size: 40px;
         text-size-adjust: bold;
         font-weight: 680;
         color: #fff;
@@ -107,18 +109,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-    body {
-        color: #fff;
-        list-style-type: none;
-        font-family: 'Montserrat',
-        sans-serif;
-        background-color:#1d1d1d ;
-        background-size: contain;
-        cursor: default;
-    }
-
-    .span_section-End {
-        font-size: 34px;
+      .span_section-End {
+        font-size: 40px;
         text-size-adjust: bold;
         font-weight: 680;
         color: #fff;
@@ -169,8 +161,14 @@
  body {
      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
      background-size: 400% 400%;
+     background-attachment:fixed;
      animation: gradient 15s ease infinite;
      height: 100%;
+     color: #fff;
+     list-style-type: none;
+     font-family: 'Montserrat',
+     sans-serif;
+     cursor: default;
  }
 @keyframes gradient {
     0% {
