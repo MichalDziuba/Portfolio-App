@@ -170,6 +170,7 @@
         justify-content: space-evenly;
         padding-top: 150px;
         padding-bottom: 100px;
+        flex-wrap: wrap;
     }
 
     .portfolio__item .portfolio__image {
@@ -198,10 +199,11 @@
 @media screen and (min-width: 1280px) {
     .portfolio__gallery {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-direction: row;
         padding-top: 150px;
         padding-bottom: 100px;
+        flex-wrap: wrap;
     }
 
     .portfolio__item {

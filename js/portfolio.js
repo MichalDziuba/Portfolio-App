@@ -1,22 +1,38 @@
-const portfolioElms = [{
+const portfolioElms = [
+  {
     tittle: 'WebStudio',
     tech: 'HTML,CSS,JavaScript',
     link: 'https://michaldziuba.github.io/goit-markup-hw-08/',
-    preview: "./images/webstudio-preview.png",
+    preview: './images/WebStudio.png',
     description: 'First WebSite created on homeworks in a GoIT course.',
-    code: 'https://github.com/MichalDziuba/goit-js-hw-08'
-
+    code: 'https://github.com/MichalDziuba/goit-js-hw-08',
   },
   {
-    tittle: 'IceCream',
+    tittle: 'HellEn',
     tech: 'HTML,CSS,JavaScript,ParcelBundler',
     link: 'https://piotrekjot.github.io/team-hellen/',
-    preview: './images/iceCream-preview.png',
+    preview: './images/HellEn.png',
     description: 'WebSite created in group on a course.',
-    code: 'https://github.com/piotrekjot/team-hellen'
+    code: 'https://github.com/piotrekjot/team-hellen',
   },
-
-]
+  {
+    tittle: 'EventBooster',
+    tech: 'HTML,CSS,JavaScript,RestAPI',
+    link: 'https://patrykjarzynka.github.io/Project_JS/',
+    preview: './images/EventBooster.png',
+    description:
+      'The Website is used to search for events by country or artist.',
+    code: 'https://github.com/PatrykJarzynka/Project_JS',
+  },
+  {
+    tittle: 'ImageFinder',
+    tech: 'HTML,CSS,React,RestAPI',
+    link: 'https://michaldziuba.github.io/goit-react-hw-04-hooks-images/',
+    preview: './images/ImageFinder.png',
+    description: 'WebSite for searching images with PixaBay API.',
+    code: 'https://github.com/MichalDziuba/goit-react-hw-04-hooks-images',
+  },
+];
 const portfolioGallery = document.querySelector(".portfolio__gallery");
 portfolioElms.forEach(elm => {
   portfolioGallery.insertAdjacentHTML("afterbegin", `<div class="portfolio__item">

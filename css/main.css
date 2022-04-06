@@ -1138,6 +1138,7 @@ nav li:last-child {
     justify-content: space-evenly;
     padding-top: 150px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
   }
   .portfolio__item .portfolio__image {
     width: 300px;
@@ -1161,10 +1162,11 @@ nav li:last-child {
 @media screen and (min-width: 1280px) {
   .portfolio__gallery {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     padding-top: 150px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
   }
   .portfolio__item {
     width: 360px;
