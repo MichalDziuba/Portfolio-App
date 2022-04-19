@@ -32,6 +32,14 @@ const portfolioElms = [
     description: 'WebSite for searching images with PixaBay API.',
     code: 'https://github.com/MichalDziuba/goit-react-hw-04-hooks-images',
   },
+  {
+    tittle: 'MoviesFinder',
+    tech: 'HTML,CSS,React,RestAPI',
+    link: 'https://michaldziuba.github.io/goit-react-hw-05-movies/',
+    preview: './images/MoviesFinder.png',
+    description: 'WebSite for searching movies and details with themoviedb API.',
+    code: 'https://github.com/MichalDziuba/goit-react-hw-05-movies',
+  },
 ];
 const portfolioGallery = document.querySelector(".portfolio__gallery");
 portfolioElms.forEach(elm => {

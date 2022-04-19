@@ -971,8 +971,6 @@ nav li:last-child {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    min-height: 366px;
-    max-height: 366px;
   }
   .about__wrapper {
     display: flex;
@@ -992,7 +990,7 @@ nav li:last-child {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -1136,7 +1134,7 @@ nav li:last-child {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px;
     flex-wrap: wrap;
   }
@@ -1164,7 +1162,7 @@ nav li:last-child {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px;
     flex-wrap: wrap;
   }
