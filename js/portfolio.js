@@ -37,10 +37,20 @@ const portfolioElms = [
     tech: 'HTML,CSS,React,RestAPI',
     link: 'https://michaldziuba.github.io/goit-react-hw-05-movies/',
     preview: './images/MoviesFinder.png',
-    description: 'WebSite for searching movies and details with themoviedb API.',
+    description:
+      'WebSite for searching movies and details with themoviedb API.',
     code: 'https://github.com/MichalDziuba/goit-react-hw-05-movies',
   },
+  {
+    tittle: 'BooksFinder',
+    tech: 'HTML,CSS,React,RestAPI',
+    link: 'https://michaldziuba.github.io/bookfinder/',
+    preview: './images/BookFinder.png',
+    description: 'WebSite for searching ebooks with Project Gutenberg API.',
+    code: 'https://github.com/MichalDziuba/bookfinder',
+  },
 ];
+
 const portfolioGallery = document.querySelector(".portfolio__gallery");
 portfolioElms.forEach(elm => {
   portfolioGallery.insertAdjacentHTML("afterbegin", `<div class="portfolio__item">
