@@ -49,6 +49,14 @@ const portfolioElms = [
     description: 'WebSite for searching ebooks with Project Gutenberg API.',
     code: 'https://github.com/MichalDziuba/bookfinder',
   },
+  {
+    tittle: 'Phonebook',
+    tech: 'JS,CSS,React,Redux',
+    link: 'https://phonebook-md.netlify.app/',
+    preview: './images/PhoneBook.png',
+    description: 'Phone book application with user registration and login. Used Connections API as backend.',
+    code: 'https://github.com/MichalDziuba/goit-react-hw-08--phonebook',
+  },
 ];
 
 const portfolioGallery = document.querySelector(".portfolio__gallery");
